@@ -30,7 +30,7 @@ functions:
     handler: handler.run
     events:
       # Each Wednesday at 10am UTC-3
-      - schedule: cron(0 13 ? * MON *)
+      - schedule: cron(0 13 ? * WED *)
 
 plugins:
   - serverless-webpack
